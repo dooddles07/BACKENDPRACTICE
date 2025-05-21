@@ -1,8 +1,8 @@
 const express = require("express");
 const {
-    createWorkout,
     getWorkouts,
     getWorkout,
+    createWorkout,
     deleteWorkout,
     updateWorkout
 } = require("../controllers/workoutController");
